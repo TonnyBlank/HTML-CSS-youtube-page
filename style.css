@@ -1,0 +1,104 @@
+
+.search{
+   justify-content: center;
+    border: 50px;
+    align-items: center;
+    display: flex;
+    border-radius: 50px;
+
+    
+}
+body{
+    background-color: rgb(33, 27, 27);
+}
+.Mic{
+    justify-content: center;
+    gap: 20px;
+    border-radius: 50px;
+    text-align: center;
+}
+.top{
+    display:flex;
+    text-align: center;
+    justify-content:center;
+    padding: 10 px 20px;
+}
+.image{
+    justify-content:right;
+    display: flex;
+}
+.nav2{
+    gap: 50px;
+    text-align: center;
+    background-color: rgb(16, 15, 15);
+    border-radius: 50px;
+    border:none;
+    margin: 8px 0;
+    width: 100vh;
+    
+    
+}
+.nav2 button{
+    cursor: pointer;
+    border-radius: 5px;
+    height: 33px;
+    flex: 1;
+}
+.container {
+    display: flex;
+ 
+}
+
+
+.sidebar {
+    width: 108px;
+    background-color: #504949;
+    padding: 15px;
+    height: 57vh; 
+    border-radius: 10px;
+    
+}
+
+
+
+.sidebar button{
+width: 100px;
+align-items: stretch;
+flex:3;
+margin: 8px 4px;
+border-radius: 5px;
+cursor: pointer;
+text-align: left;
+padding: 12px;
+
+
+}
+
+
+.table-container {
+    flex-grow: 1;
+    padding: 20px;
+    
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #0e0d0d;
+    color: rgb(5, 5, 5);
+}
+
+th, td {
+    border: 1px solid #444;
+    padding: 15px;
+    text-align: left;
+}
+
+th {
+    background-color: #333;
+    color: white;
+}
+.link a{
+    color: white;
+}
